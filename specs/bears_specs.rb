@@ -29,4 +29,8 @@ def test_add_fish()
   assert_equal(1, @bear1.stomach.size())
 end
 
+def test_roar()
+  assert_equal("Yogi roars!", @bear1.roar(@bear1))
+end
+
 end

@@ -26,5 +26,8 @@ class Bear
     @stomach << fish
   end
 
+  def roar(bear)
+    return "#{bear.name} roars!"
+  end
 
 end
